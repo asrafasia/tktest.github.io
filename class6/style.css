@@ -1,0 +1,136 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #333;
+}
+body {
+    color: #787978;
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 80px 0;
+}
+.section-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-title h2{
+    text-transform: capitalize;
+
+    
+}
+.section-title span{
+color: #26A65B;
+}
+.single-pricing-box h3{
+    text-transform: uppercase;
+    font-weight:400;
+    padding: 20px;
+    text-align: center;
+}
+.single-pricing-box .pricing-counter{
+    color:#242524;
+    font-weight: 700;
+    text-transform: none;
+}
+.single-pricing-box{
+    border:1px solid #D6DDD9;
+    text-align: center;
+    padding-bottom: 30px;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.single-pricing-box:hover{
+   border-color: #2fa55e;
+    box-shadow:0 0 50px #f1f1f1;
+}
+.single-pricing-box:hover .pricing-icon i.fa{
+    color:  #2fa55e;
+}
+.single-pricing-box:hover .pricing-icon img{
+    opacity: .7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.pricing-icon{
+    text-align: center;
+     margin-bottom: 20px;
+     -webkit-transition: .3s;
+     transition: .3s;
+    
+}
+.pricing-icon img{
+    max-width:60px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.pricing-icon i.fa{
+    font-size: 60px;
+    -webkit-transition: .3s;
+    transition: .3s;
+   
+}
+.pricing-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 23px;
+    text-align: left;
+    padding-left: 16px;
+    line-height: 26px;
+}
+.single-pricing-box .border-btn{
+    border:1px solid #26A65B;
+    padding: 10px 30px;
+    border-radius:50px;
+    display:inline-block;
+    color:#777777;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.single-pricing-box .border-btn:hover{
+    background-color: #26A65B;
+    color: #fff;
+}
+.pricing-list ul li:before{
+    font-family: fontAwesome;
+    content:"\f00c";
+    color: #2fa55e;
+    padding-right: 10px;
+}
+.pricing-list .off:before{
+    content:"\f00d";
+    color: #eb3036;
+}
+.pricing-list ul li{
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+.pricing-list ul li:hover{
+    padding-left: 5px;
+}
+
