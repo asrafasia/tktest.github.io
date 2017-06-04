@@ -1,0 +1,168 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+        font-family: 'Open Sans Condensed', sans-serif;
+       
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 80px 0;
+    background: #F1F1F1;
+}
+
+.section-title{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    
+
+}
+.section-title h2{
+    font-size: 35px;
+}
+.section-border span{
+    height: 5px;
+    width: 50px;
+    display: inline-block;
+    background: #6AAF08;
+    border-radius: 3px;
+    
+}
+.section-border .black-border{
+    background: #333;
+    width:30px;
+    margin: 0 5px;
+}
+.single-testimonial-item{
+    box-shadow: 0 0 2px #A1A898;
+    margin: 2px;
+    padding:20px;
+    position: relative;
+    padding-left: 80px;
+   
+}
+.single-testimonial-item:before{
+    font-family: fontAwesome;
+    content: "\f10e";
+    position: absolute;
+    color: #6AAF08;
+    left: 20px;
+    top: 50%;
+    line-height: 30px;
+    margin-top: -15px;
+    
+    
+}
+.single-testimonial-item:after{
+    content: "";
+    background: #D1D1D1;
+    position: absolute;
+    top: 15%;
+    width: 1px;
+    left: 60px;
+    height:75%;
+}
+.single-testimonial-item p{
+    font-style: italic;
+}
+.single-testimonial-item h3{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.single-testimonial-item h3 span{
+    display: block;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.testimonial-carousel .owl-dots div{
+    height: 5px;
+    width: 20px;
+    background: #6AAF08;
+    display:inline-block;
+    margin: 2px;
+    transition: .2s;
+    border-radius: 2px;
+    
+}
+.testimonial-carousel .owl-dots .active{
+    width: 30px;
+    background: #333;
+    
+}
+.testimonial-carousel .owl-dots{
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -18,6 +18,18 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
             
             
         });
+		
+		$('.testimonial-carousel').owlCarousel({
+            loop : true,
+            nav : false,
+            margin : 30,
+            items : 3,
+            dots : true,
+            autoplay : true
+            
+            
+        });
+
 
 
         
