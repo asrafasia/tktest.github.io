@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: 'CODEBold';
-  src: url('assets/fonts/CODEBold.eot');
-  src: url('assets/fonts/CODEBold.eot') format('embedded-opentype'), url('assets/fonts/CODEBold.woff2') format('woff2'), url('assets/fonts/CODEBold.woff?') format('woff'), url('assets/fonts/CODEBold.ttf') format('truetype'), url('assets/fonts/CODEBold.svg#coderegular') format('svg');
+  src: url('../assets/fonts/CODEBold.eot');
+  src: url('../assets/fonts/CODEBold.eot') format('embedded-opentype'), url('../assets/fonts/CODEBold.woff2') format('woff2'), url('../assets/fonts/CODEBold.woff?') format('woff'), url('../assets/fonts/CODEBold.ttf') format('truetype'), url('../assets/fonts/CODEBold.svg#coderegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CODELight';
-  src: url('assets/fonts/CODELight.eot');
-  src: url('assets/fonts/CODELight.eot') format('embedded-opentype'), url('assets/fonts/CODELight.woff2') format('woff2'), url('assets/fonts/CODELight.woff?') format('woff'), url('assets/fonts/CODELight.ttf') format('truetype'), url('assets/fonts/CODELight.svg#coderegular') format('svg');
+  src: url('../assets/fonts/CODELight.eot');
+  src: url('../assets/fonts/CODELight.eot') format('embedded-opentype'), url('../assets/fonts/CODELight.woff2') format('woff2'), url('../assets/fonts/CODELight.woff?') format('woff'), url('../assets/fonts/CODELight.ttf') format('truetype'), url('../assets/fonts/CODELight.svg#coderegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
