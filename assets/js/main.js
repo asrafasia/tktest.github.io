@@ -30,7 +30,7 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
             
         });
 
-
+		 $('.product-list').masonry();
 
         
 
