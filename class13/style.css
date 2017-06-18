@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: 'CODEBold';
-  src: url('../assets/fonts/CODEBold.eot');
-  src: url('../assets/fonts/CODEBold.eot') format('embedded-opentype'), url('../assets/fonts/CODEBold.woff2') format('woff2'), url('../assets/fonts/CODEBold.woff?') format('woff'), url('../assets/fonts/CODEBold.ttf') format('truetype'), url('../assets/fonts/CODEBold.svg#coderegular') format('svg');
+  src: url('assets/fonts/CODEBold.eot');
+  src: url('assets/fonts/CODEBold.eot') format('embedded-opentype'), url('assets/fonts/CODEBold.woff2') format('woff2'), url('assets/fonts/CODEBold.woff?') format('woff'), url('assets/fonts/CODEBold.ttf') format('truetype'), url('assets/fonts/CODEBold.svg#coderegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CODELight';
-  src: url('../assets/fonts/CODELight.eot');
-  src: url('../assets/fonts/CODELight.eot') format('embedded-opentype'), url('../assets/fonts/CODELight.woff2') format('woff2'), url('../assets/fonts/CODELight.woff?') format('woff'), url('../assets/fonts/CODELight.ttf') format('truetype'), url('../assets/fonts/CODELight.svg#coderegular') format('svg');
+  src: url('assets/fonts/CODELight.eot');
+  src: url('assets/fonts/CODELight.eot') format('embedded-opentype'), url('assets/fonts/CODELight.woff2') format('woff2'), url('assets/fonts/CODELight.woff?') format('woff'), url('assets/fonts/CODELight.ttf') format('truetype'), url('assets/fonts/CODELight.svg#coderegular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -53,47 +53,47 @@ body {
 a:hover { text-decoration: none }
 
 .product-bg-1{
-    background-image: url(../assets/images/smallLady.png);
+    background-image: url(assets/images/smallLady.png);
     
 }
 .product-bg-2{
-    background-image: url(../assets/images/2ladyBig.png);
+    background-image: url(assets/images/2ladyBig.png);
     
 }
 .product-bg-3{
-    background-image: url(../assets/images/smallLady.png);
+    background-image: url(assets/images/smallLady.png);
     
 }
 .product-bg-4{
-    background-image: url(../assets/images/3lady.png);
+    background-image: url(assets/images/3lady.png);
     
 }
 .product-bg-5{
-    background-image: url(../assets/images/smallLady.png);
+    background-image: url(assets/images/smallLady.png);
     
 }
 .product-bg-6{
-    background-image: url(../assets/images/smallLady.png);
+    background-image: url(assets/images/smallLady.png);
     
 }
 .product-bg-7{
-    background-image: url(../assets/images/smallLady.png);
+    background-image: url(assets/images/smallLady.png);
     
 }
 .product-bg-8{
-    background-image: url(../assets/images/smallLady.png);
+    background-image: url(assets/images/smallLady.png);
     
 }
 .product-bg-9{
-    background-image: url(../assets/images/2ladySmall.png);
+    background-image: url(assets/images/2ladySmall.png);
     
 }
 .product-bg-10{
-    background-image: url(../assets/images/smallLady.png);
+    background-image: url(assets/images/smallLady.png);
     
 }
 .homepage-slider-wrap{
-    background-image: url(../assets/images/hero-bg.jpg);
+    background-image: url(assets/images/hero-bg.jpg);
 }
 .header-top-area{
     text-transform: uppercase;
