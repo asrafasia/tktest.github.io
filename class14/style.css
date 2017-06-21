@@ -53,43 +53,43 @@ body {
 a:hover { text-decoration: none }
 
 .product-bg-1{
-    background-image: url(assets/images/smallLady.png);
+    background-image: url(assets/images/f1edited.png);
     
 }
 .product-bg-2{
-    background-image: url(assets/images/2ladyBig.png);
+    background-image: url(assets/images/twoladyEdited.png);
     
 }
 .product-bg-3{
-    background-image: url(assets/images/smallLady.png);
+    background-image: url(assets/images/f1edited.png);
     
 }
 .product-bg-4{
-    background-image: url(assets/images/3lady.png);
+    background-image: url(assets/images/3ladyedited.png);
     
 }
 .product-bg-5{
-    background-image: url(assets/images/smallLady.png);
+    background-image: url(assets/images/f1edited.png);
     
 }
 .product-bg-6{
-    background-image: url(assets/images/smallLady.png);
+    background-image: url(assets/images/f1edited.png);
     
 }
 .product-bg-7{
-    background-image: url(assets/images/smallLady.png);
+    background-image: url(assets/images/f1edited.png);
     
 }
 .product-bg-8{
-    background-image: url(assets/images/smallLady.png);
+    background-image: url(assets/images/f1edited.png);
     
 }
 .product-bg-9{
-    background-image: url(assets/images/2ladySmall.png);
+    background-image: url(assets/images/2ladySamledited.png);
     
 }
 .product-bg-10{
-    background-image: url(assets/images/smallLady.png);
+    background-image: url(assets/images/singleLady.png);
     
 }
 .homepage-slider-wrap{
@@ -152,9 +152,8 @@ a:hover { text-decoration: none }
     position: absolute;
     left: 50%;
     bottom:0;
-    width: 500px;
-    margin-left:-250px;
-    height: 85%;
+    width:620px;
+    margin-left:-310px;
         
 }
 
