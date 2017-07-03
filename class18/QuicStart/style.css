@@ -1,0 +1,265 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 14;
+    color:#626262; 
+/*    max-width: 1200px;*/
+    margin: 0 auto;
+   
+}
+a:hover { text-decoration: none }
+
+
+.logo h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header.header-area,
+.slider-area{
+    padding: 70px 0 30px;
+}
+
+nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    float: left;
+}
+nav ul li a {
+    color: #626262;
+    display: inline-block;
+    margin-left: 120px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo > a {
+    text-decoration: none;
+}
+
+.slider-image img {
+    width: 100%;
+}
+.slider-image {
+    margin-bottom: 100px;
+}
+.main-content > h3 {
+    color: #b4ad9e;
+    font-family: "ubuntu","sans-serif";
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.content-area .row,
+.blog-area .row,
+.latest-post-area .row{
+   margin: 0 75px;
+}
+
+.main-content > h2 {
+    color: #626262;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.main-content > p {
+   line-height: 23px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+ 
+.feature-image-bg-1{background-image: url(assets/images/ftr-1.jpg);}
+.feature-image-bg-2{background-image: url(assets/images/ftr-2.jpg);}
+.feature-image-bg-3{background-image: url(assets/images/ftr-3.jpg);}
+.feature-image-bg-4{background-image: url(assets/images/ftr-4.jpg);}
+.feature-image-bg-5{background-image: url(assets/images/ftr-5.jpg);}
+.feature-image-bg-6{background-image: url(assets/images/ftr-6.jpg);}
+
+.feature-image-bg-1,
+.feature-image-bg-2,
+.feature-image-bg-3,
+.feature-image-bg-4,
+.feature-image-bg-5,
+.feature-image-bg-6{
+    background-position: center center;
+	background-size: cover;
+	height:280px;
+}
+.blog-post{
+   margin-bottom: 20px;
+	margin-top: 30px;
+
+}
+.blog-post > h3,
+.blog-post > h3,
+.latest-post > h3{
+    font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.main-content > h2,
+.blog-post > h2,
+.latest-post > h2{
+   color: #626262;
+	font-family: "Playfair Display",serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.main-content > p,
+.blog-post > p,
+.latest-post > p{
+    margin-top: 40px;
+    line-height: 23px;
+}
+
+.signup-area{
+    background-image: url(assets/images/signup-bg.jpg);
+    background-color: #F0F0F0;
+    height: 285px;
+    background-size:cover;
+    background-position: center center;
+    margin-bottom: 40px;
+    margin-top: 25px;
+     padding: 75px 0;
+    
+}
+.signup-title > h2 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    text-transform: unset;
+    margin-bottom: 80px;
+    font-weight: normal;
+}
+
+.signup-input{
+    text-align: center;
+}
+.signup-input input[type="email"] {
+	background:transparent;
+	border-color: #333333;
+	border-style: solid;
+	border-width: 0 0 1px;
+	color: #626262;
+	height: 40px;
+	width: 400px;
+}
+.signup-input input[type="image"]{
+    left: -3%;
+	position: relative;
+	top: 5px;
+}
+.latest-post{
+    margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 15px;
+}
+.load-more-btn {
+    margin: 90px 0;
+    text-align: center;
+    
+}
+.load-more-btn > a {
+   border: 1px solid #626262;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  color: #626262;
+  padding: 15px 40px;
+   
+    
+}
+
+.footer-area{
+    background-image: url(assets/images/footer-bg.jpg);
+    background-color: #F0F0F0;
+    height: 100px;
+    padding: 40px 0;
+}
+.footer-left a{
+  color: #000000;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.footer-right{
+    text-align: right;
+    
+}
+.footer-right p{
+    color: #000;
+	float: left;
+	margin-right: 10px;
+	position: absolute;
+	right: 20%;
+}
+.footer-right i.fa{
+     font-size: 16px;
+  margin: 0 10px;
+  color: #626262;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
