@@ -175,13 +175,14 @@ a:hover { text-decoration: none }
     padding: 10px;
   
 }
-.newsletter-form button{
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    border: none;
+.newsletter-form button {
     background-color: #f0f0f0;
+    border: medium none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    right: -10px;
+    top: -1px;
 }
 .load-more-btn-wrapper.text-center {
     margin-top: -30px;
