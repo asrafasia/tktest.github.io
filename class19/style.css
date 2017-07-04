@@ -126,12 +126,12 @@ a:hover { text-decoration: none }
     display: inline-block;
     color: #b4ad9e;
 }
-.blog-featured-bg-1{background-image: url(assets/images/ftr-1.jpg);}
-.blog-featured-bg-2{background-image: url(assets/images/ftr-2.jpg);}
-.blog-featured-bg-3{background-image: url(assets/images/ftr-3.jpg);}
-.blog-featured-bg-4{background-image: url(assets/images/ftr-4.jpg);}
-.blog-featured-bg-5{background-image: url(assets/images/ftr-5.jpg);}
-.blog-featured-bg-6{background-image: url(assets/images/ftr-6.jpg);}
+.blog-featured-bg-1{background-image: url(../assets/images/ftr-1.jpg)}
+.blog-featured-bg-2{background-image: url(../assets/images/ftr-2.jpg)}
+.blog-featured-bg-3{background-image: url(../assets/images/ftr-3.jpg)}
+.blog-featured-bg-4{background-image: url(../assets/images/ftr-4.jpg)}
+.blog-featured-bg-5{background-image: url(../assets/images/ftr-5.jpg)}
+.blog-featured-bg-6{background-image: url(../assets/images/ftr-6.jpg)}
 
 .blog-featured-bg-1,
 .blog-featured-bg-2,
