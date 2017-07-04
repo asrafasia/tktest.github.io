@@ -126,12 +126,12 @@ a:hover { text-decoration: none }
     display: inline-block;
     color: #b4ad9e;
 }
-.blog-featured-bg-1{background-image: url(assets/images/ftr-1.jpg);}
-.blog-featured-bg-2{background-image: url(assets/images/ftr-2.jpg);}
-.blog-featured-bg-3{background-image: url(assets/images/ftr-3.jpg);}
-.blog-featured-bg-4{background-image: url(assets/images/ftr-4.jpg);}
-.blog-featured-bg-5{background-image: url(assets/images/ftr-5.jpg);}
-.blog-featured-bg-6{background-image: url(assets/images/ftr-6.jpg);}
+.blog-featured-bg-1{background-image: url(../assets/images/ftr-1.jpg);}
+.blog-featured-bg-2{background-image: url(../assets/images/ftr-2.jpg);}
+.blog-featured-bg-3{background-image: url(../assets/images/ftr-3.jpg);}
+.blog-featured-bg-4{background-image: url(../assets/images/ftr-4.jpg);}
+.blog-featured-bg-5{background-image: url(../assets/images/ftr-5.jpg);}
+.blog-featured-bg-6{background-image: url(../assets/images/ftr-6.jpg);}
 
 .blog-featured-bg-1,
 .blog-featured-bg-2,
@@ -348,12 +348,12 @@ nav ul li a {
 	margin-top: 40px;
 }
  
-blog-featured-bg{background-image: url(assets/images/ftr-1.jpg);}
-.feature-image-bg-2{background-image: url(assets/images/ftr-2.jpg);}
-.feature-image-bg-3{background-image: url(assets/images/ftr-3.jpg);}
-.feature-image-bg-4{background-image: url(assets/images/ftr-4.jpg);}
-.feature-image-bg-5{background-image: url(assets/images/ftr-5.jpg);}
-.feature-image-bg-6{background-image: url(assets/images/ftr-6.jpg);}
+blog-featured-bg{background-image: url(../assets/images/ftr-1.jpg);}
+.feature-image-bg-2{background-image: url(../assets/images/ftr-2.jpg);}
+.feature-image-bg-3{background-image: url(../assets/images/ftr-3.jpg);}
+.feature-image-bg-4{background-image: url(../assets/images/ftr-4.jpg);}
+.feature-image-bg-5{background-image: url(../assets/images/ftr-5.jpg);}
+.feature-image-bg-6{background-image: url(../assets/images/ftr-6.jpg);}
 
 blog-featured-bg,
 .feature-image-bg-2,
@@ -399,7 +399,7 @@ blog-featured-bg,
 }
 
 .signup-area{
-    background-image: url(assets/images/signup-bg.jpg);
+    background-image: url(../assets/images/signup-bg.jpg);
     background-color: #F0F0F0;
     height: 285px;
     background-size:cover;
@@ -446,7 +446,7 @@ blog-featured-bg,
 }
 
 .footer-area{
-    background-image: url(assets/images/footer-bg.jpg);
+    background-image: url(../assets/images/footer-bg.jpg);
     background-color: #F0F0F0;
     height: 100px;
     padding: 40px 0;
