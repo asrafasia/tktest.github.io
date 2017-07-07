@@ -29,20 +29,23 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
             
             
         });
+		
+		
+		$('.homepage-slides').owlCarousel({
+            loop : true,
+            nav : false,
+            items : 1,
+            dots : true,
+            autoplay : true
+            
+            
+        });
 
 		 $('.product-list').masonry();
 
         
 		
-        $(".homepage-slides").owlCarousel({
-        	items:1,
-        	loop:true,
-            nav:false,
-            dots:true,
-        	autoplay:false,
-        	
-        });
-		
+      
 		
 
     });
