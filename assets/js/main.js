@@ -33,7 +33,17 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
 		 $('.product-list').masonry();
 
         
-
+		
+        $(".homepage-slides").owlCarousel({
+        	items:1,
+        	loop:true,
+            nav:false,
+            dots:true,
+        	autoplay:false,
+        	
+        });
+		
+		
 
     });
 
