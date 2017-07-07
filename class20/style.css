@@ -1,0 +1,497 @@
+.. /*
+======================
+Template Name:"mimimo"
+Template URL : http://asaraf.tk/minimo/
+Description: "this is a simple blog psd ..."
+Author: md.asraf uddin
+Author URI: http://asraf.tk/
+Version:1.0
+======================
+
+** - Global Style
+** - Header
+** - Blog
+      - Background
+** - Newsletter
+** - Footer
+------------------------------------------
+   ------------------------------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700');
+
+
+
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+body {
+    
+    font-family: 'Playfair Display', serif;
+    font-size: 14;
+    color:#626262; 
+/*    max-width: 1200px;*/
+    margin: 0 auto;
+   
+}
+a:hover { text-decoration: none }
+
+.blog-featured-content img{
+    width: 100%;
+}
+
+.blog-meta,.blog-readmore-btn{
+    font-family: font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: #626262;
+    line-height: 1.714;
+
+}
+.logo{
+    padding: 70px 0;
+}
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.mainmenu ul li{
+    display: inline-block;
+    padding-left: 95px;
+
+}
+.mainmenu ul li a{
+    color: #626262;
+    text-transform: uppercase;
+    display: block;
+    padding: 70px 0;
+}
+.single-blog-item{
+    margin-bottom: 120px;
+}
+.single-box-item{
+    margin-bottom: 120px;
+}
+.single-blog-item h2 a,
+.single-box-item h2 a{
+    color: #626262;
+}
+
+.single-blog-item h2,
+.single-box-item h2{
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.blog-meta{
+    text-transform: uppercase;
+}
+.blog-meta a{
+    color: #b4ad9e;
+}
+.blog-featured-content{
+    margin-bottom: 95px;
+}
+.blog-featured-bg{
+    margin-bottom: 30px;
+}
+.blog-box-content{
+    margin-bottom: 30px;
+}
+.blog-readmore-btn{
+    display: inline-block;
+    color: #b4ad9e;
+}
+.blog-featured-bg-1{background-image: url(../assets/images/ftr-1.jpg);}
+.blog-featured-bg-2{background-image: url(../assets/images/ftr-2.jpg);}
+.blog-featured-bg-3{background-image: url(../assets/images/ftr-3.jpg);}
+.blog-featured-bg-4{background-image: url(../assets/images/ftr-4.jpg);}
+.blog-featured-bg-5{background-image: url(../assets/images/ftr-5.jpg);}
+.blog-featured-bg-6{background-image: url(../assets/images/ftr-6.jpg);}
+
+.blog-featured-bg{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:280px;
+    background-color: #f2f2f2;
+    max-width: 100%;
+    
+}
+
+.newsletter-area{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.newsletter-area h2{
+     color: #333;
+    font-size: 30px;
+    text-align: center;
+    text-transform: unset;
+    margin-bottom: 80px;
+    font-weight: normal;
+}
+.newsletter-form{
+    max-width: 360px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+    position: relative;
+
+}
+.newsletter-form input[type="email"]{
+    border: none;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+  
+}
+.newsletter-form button {
+    background-color: #f0f0f0;
+    border: medium none;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    right: -10px;
+    top: -1px;
+}
+.load-more-btn-wrapper.text-center {
+    margin-top: -30px;
+}
+.load-more-btn{
+  border: 1px solid #626262;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  color: #626262;
+  padding: 15px 30px;
+  text-decoration: none;
+   
+}
+.footer-area{
+  background-color:#f0f0f0;
+    padding: 35px 0;
+    margin-top: 90px;
+  
+}
+  .footer-area .col-md-5 a{
+color:#000;
+  }
+.footer-area .col-md-5 ul li{
+  display:inline-block;
+  padding-right:40px;
+}
+.footer-area ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.footer-area .col-md-6 ul li{
+   display: inline-block;
+    padding-right: 15px;
+}
+.footer-area .col-md-6 i.fa{
+  font-size: 16px;
+  color: #626262;
+}
+.footer-area .col-md-6 ul li p{
+    color: #010101;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.logo h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header.header-area,
+.slider-area{
+    padding: 70px 0 30px;
+}
+
+nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    float: left;
+}
+nav ul li a {
+    color: #626262;
+    display: inline-block;
+    margin-left: 120px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo > a {
+    text-decoration: none;
+}
+
+.slider-image img {
+    width: 100%;
+}
+.slider-image {
+    margin-bottom: 100px;
+}
+.main-content > h3 {
+    color: #b4ad9e;
+    font-family: "ubuntu","sans-serif";
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.content-area .row,
+.blog-area .row,
+.latest-post-area .row{
+   margin: 0 75px;
+}
+
+.main-content > h2 {
+    color: #626262;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.main-content > p {
+   line-height: 23px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+ 
+blog-featured-bg{background-image: url(../assets/images/ftr-1.jpg);}
+.feature-image-bg-2{background-image: url(../assets/images/ftr-2.jpg);}
+.feature-image-bg-3{background-image: url(../assets/images/ftr-3.jpg);}
+.feature-image-bg-4{background-image: url(../assets/images/ftr-4.jpg);}
+.feature-image-bg-5{background-image: url(../assets/images/ftr-5.jpg);}
+.feature-image-bg-6{background-image: url(../assets/images/ftr-6.jpg);}
+
+blog-featured-bg,
+.feature-image-bg-2,
+.feature-image-bg-3,
+.feature-image-bg-4,
+.feature-image-bg-5,
+.feature-image-bg-6{
+    background-position: center center;
+	background-size: cover;
+	height:280px;
+}
+.blog-post{
+   margin-bottom: 20px;
+	margin-top: 30px;
+
+}
+.blog-post > h3,
+.blog-post > h3,
+.latest-post > h3{
+    font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.main-content > h2,
+.blog-post > h2,
+.latest-post > h2{
+   color: #626262;
+	font-family: "Playfair Display",serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.main-content > p,
+.blog-post > p,
+.latest-post > p{
+    margin-top: 40px;
+    line-height: 23px;
+}
+
+.signup-area{
+    background-image: url(../assets/images/signup-bg.jpg);
+    background-color: #F0F0F0;
+    height: 285px;
+    background-size:cover;
+    background-position: center center;
+    margin-bottom: 40px;
+    margin-top: 25px;
+     padding: 75px 0;
+    
+}
+.signup-title > h2 {
+   
+}
+
+.signup-input{
+    text-align: center;
+}
+.signup-input input[type="email"] {
+	background:transparent;
+	border-color: #333333;
+	border-style: solid;
+	border-width: 0 0 1px;
+	color: #626262;
+	height: 40px;
+	width: 400px;
+}
+.signup-input input[type="image"]{
+    left: -3%;
+	position: relative;
+	top: 5px;
+}
+.latest-post{
+    margin-bottom: 60px;
+	margin-top: 60px;
+	padding: 15px;
+}
+.load-more-btn {
+    margin: 90px 0;
+    text-align: center;
+    
+}
+.load-more-btn > a {
+
+    
+}
+
+.footer-area{
+    background-image: url(../assets/images/footer-bg.jpg);
+    background-color: #F0F0F0;
+    height: 100px;
+    padding: 40px 0;
+}
+.footer-left a{
+  color: #000000;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.footer-right{
+    text-align: right;
+    
+}
+.footer-right p{
+    color: #000;
+	float: left;
+	margin-right: 10px;
+	position: absolute;
+	right: 20%;
+}
+.footer-right i.fa{
+    
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
