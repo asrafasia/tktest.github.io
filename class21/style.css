@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,400i,500,500i,700,700i');
+
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: 15px;
+    line-height: 1.7;
+}
+a:hover { text-decoration: none }
+
+.header-top-area{
+    background-color: #218AE6;
+    padding: 10px 0;
+}
+.header-top-area,.header-top-area a{
+    color: #fff;
+}
+.col-md-3 img {
+  margin-right: 10px;
+}
+.header-top-right a{
+    padding-left: 20px;
+}
+.header-top-right a i.fa{
+    padding-right: 10px;
+}
+.header-area h3{
+    font-weight: 700;
+    margin: 24px 0;
+}
+.header-area a{
+    color: #333;
+}
+.header-area ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-area ul li{
+    display: inline-block;
+}
+
+.header-area ul li a{
+    display: block;
+    padding: 25px 0 25px 50px;
+    text-transform: uppercase;
+}
+.header-area a:hover{
+    color: #218AE6;
+}
+
+.homepage-slides{
+    background-color: #218AE6;
+    color: #fff;
+    font-size: 17px;
+}
+.homepage-slides h2{
+    font-size: 50px;
+    font-weight: 100;
+}
+.slide-btn{
+    background-color: #F9CF25;
+    color: #333;
+    font-size: 13px;
+    padding: 12px 23px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-top: 10px;
+    
+}
+.single-homepage-slide{
+    padding: 120px 0;
+}
+.single-homepage-slide p{
+    margin-bottom: 30px;
+}
+.homepage-slides .owl-dots div{
+    width: 10px;
+    height: 10px;
+    display:inline-block;
+    background: #fff;
+    border-radius: 50%;
+    margin: 5px;
+    
+}
+.homepage-slides .owl-dots div.active{
+    background:#F9CF25;
+}
+.homepage-slides .owl-dots{
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width:100%;
+    text-align:center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

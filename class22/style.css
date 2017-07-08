@@ -1,0 +1,128 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-weight: 400;
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 80px 0;
+}
+.section-heading{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.section-heading h2{
+    font-size: 40px;
+}
+.single-team-item img{
+    border: 2px solid #E7E7E7;
+}
+.team-social-icon{
+    background: #5BA939;
+    text-align:center;
+    padding:5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -27px;
+    position: relative;
+    z-index: 2;
+}
+.team-social-icon a{
+    border: 1px solid;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.single-team-item h4{
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+.single-team-item h4 span{
+    display: block;
+    font-size: 80%;
+    font-weight: 300;
+    margin-top:5px;
+    color:#5BA939;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
