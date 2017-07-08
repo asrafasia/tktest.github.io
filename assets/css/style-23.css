@@ -49,7 +49,7 @@ a:hover { text-decoration: none }
     padding-bottom: 30px;
 }
 .service-box-bg{
-    background: url(images/team-bg.jpg);
+    background: url(../images/team-bg.jpg);
     background-color: #ddd;
     height: 180px;
     position: relative;
