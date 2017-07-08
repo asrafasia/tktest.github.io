@@ -1,0 +1,209 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-paddng{
+    padding: 80px 0;
+}
+.section-heading{
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 1.7;
+}
+.section-heading h2{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.single-service-box{
+    border: 1px solid #E5E5E5;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.service-box-bg{
+    background: url(assets/images/team-bg.jpg);
+    background-color: #ddd;
+    height: 180px;
+    position: relative;
+     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.service-box-bg h2{
+    color: #fff;
+    background-color: #F97230;
+    font-size:23px;
+    font-weight:400;
+    text-align:center;
+    margin:0;
+    padding:15px;
+    position:absolute;
+    left:8%;
+    width: 84%;
+    bottom: -27px; 
+}
+.service-box-content{
+    padding: 56px 30px 30px 30px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 15px;
+    font-weight: 400;
+   
+}
+.read-more-btn{
+    display: inline-block;
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.read-more-btn:hover{
+    color: #333;
+}
+.read-more-btn i.fa{
+    margin-left: 5px; 
+}
+.read-more-btn:hover i.fa{
+    color: #F97230;
+}
+.service-box-content p:last-child{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
