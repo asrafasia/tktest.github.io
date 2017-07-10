@@ -42,6 +42,13 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
         });
 
 		 $('.product-list').masonry();
+		 
+		 
+
+         $(".search-btn").on('click', function(){
+            $(".search-box form").fadeToggle();
+             return false;
+        }); 
 
         
 		
