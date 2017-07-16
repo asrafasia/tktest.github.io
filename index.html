@@ -1,85 +1,867 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<!-- Meta Tage -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="description" content="Web Site Short Discription">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!-- Web Site Title -->
+	<title>Portfolio | Designed & Developed by Asraf Uddin</title>
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="../assets2/images/fav.ico" />
+	
+	<!--=========== StyleSheets ===========-->
+	<link rel="stylesheet" type="text/css" href="../assets2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets2/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets2/css/normalize-5.0.0.css">
+	<link rel="stylesheet" type="text/css" href="../assets2/css/pogo-slider.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets2/css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="../assets2/css/owl.theme.css">
+	<link rel="stylesheet" type="text/css" href="../assets2/css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="../assets2/css/animate.css">
 
-        <title>kindness blog section</title>
-        
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet"> 
+	<!-- Custom Style -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../assets2/css/responsive.css">
 
-         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
-       
-        
-        
-    </head>
-    <body>
-       <section class="section-padding">
-           <div class="container">
-               <div class="row">
-                   <div class="col-md-12">
-                       <div class="section-title">
-                           <h2>latest news</h2>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                       </div>
-                   </div>
-               </div>
-               <div class="row">
-                   <div class="col-md-4">
-                       <div class="single-blog-box">
-                           <div class="blog-box-bg blog-box-bg-1"></div>
-                           <div class="blog-box-content">
-                               <p class="blog-meta">
-                                  <span>
-                                   <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Asraf Uddin</a></span>
-                                   <i class="fa fa-calendar"></i> 22 December, 2017
-                               </p>
-                               <h3>A short guide to talking about </h3>
-                               <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.</p>
-                               <a href="" class="blog-readmore-btns">read more</a>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-md-4">
-                       <div class="single-blog-box">
-                           <div class="blog-box-bg blog-box-bg-2"></div>
-                           <div class="blog-box-content">
-                               <p class="blog-meta">
-                                  <span>
-                                   <a href="#"><i class="fa fa-user"></i>Asraf Uddin</a></span>
-                                   <i class="fa fa-calendar"></i> 22 December, 2017
-                               </p>
-                               <h3>A short guide to talking about </h3>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                               <a href="" class="blog-readmore-btns">read more</a>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-md-4">
-                       <div class="single-blog-box">
-                           <div class="blog-box-bg blog-box-bg-3"></div>
-                           <div class="blog-box-content">
-                               <p class="blog-meta">
-                                  <span>
-                                   <a href="#"><i class="fa fa-user"></i>Asraf Uddin</a></span>
-                                   <i class="fa fa-calendar"></i> 22 December, 2017
-                               </p>
-                               <h3>A short guide to talking about </h3>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                               <a href="" class="blog-readmore-btns">read more</a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
-        
-        
-         <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-       
-    </body>
+</head>
+<body>
+	<div id="home"></div>
+	<!-- Preloder -->
+	<div class="Preloder">
+		<div class="spinner">
+			<div class="rect1"></div>
+			<div class="rect2"></div>
+			<div class="rect3"></div>
+			<div class="rect4"></div>
+			<div class="rect5"></div>
+		</div>
+	</div>
+
+	<!-- 
+	Navigation
+	===================================== -->
+	<nav class="navigation-area stickyNav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="brand-logo"><a class="" href="index.html"><img src="../assets2/images/logo-asraf.png" alt="asraf"></a></div>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav ">
+					<li class="active smooth-scroll"><a href="#home">Home</a></li>
+					<li class="smooth-scroll"><a href="#about">About Me</a></li>
+					<li class="smooth-scroll"><a href="#services">Service</a></li>
+					<li class="smooth-scroll"><a href="#portfolio">Portfolio</a></li>
+					<li class="smooth-scroll"><a href="#testimonials">Testimonial</a></li>
+					<li class="smooth-scroll"><a href="#recent-post">Blog</a></li>
+					<li class="smooth-scroll"><a href="#contact-us">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Home Slider -->
+	<section id="home-slider">
+		<div class="pogoSlider">
+			<div class="pogoSlider-slide slide-1" data-transition="expandReveal" data-duration="1500" style="background:url(../assets2/images/slider-4.jpg) no-repeat scroll center center / cover ">
+				<div class="slide-table">
+					<div class="slide-table-cell">
+						<div class="container">
+							<div class="slider-content pogoSlider-slide-element" data-in="slideRight" data-out="slideDown" data-duration="1000">
+								<h2>Welcome to my website</h2>
+								<h4>We always try to bring the beautiful smile of our customers with our awesome works.</h4>
+								<a class="s-button" href="#">View Portfolio</a>
+								<a class="s-button" href="#">Hire Me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pogoSlider-slide slide-2" data-transition="expandReveal" data-duration="1500" style="background:url(../assets2/images/slider-2.jpeg) no-repeat scroll center center / cover">
+				<div class="slide-table">
+					<div class="slide-table-cell">
+						<div class="container">
+							<div class="slider-content text-center pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="1000">
+								<h2>Welcome to my website</h2>
+								<h4>We always try to bring the beautiful smile of our customers with our awesome works.</h4>
+								<a class="s-button" href="#">View Portfolio</a>
+								<a class="s-button" href="#">Hire Me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pogoSlider-slide slide-2 slide-3" data-transition="expandReveal" data-duration="1500" style="background:url(../assets2/images/slider-1.jpg) no-repeat scroll center center / cover">
+				<div class="slide-table">
+					<div class="slide-table-cell">
+						<div class="container">
+							<div class="slider-content text-center pogoSlider-slide-element" data-in="expand" data-out="expand" data-duration="1000">
+								<h2>Welcome to my website</h2>
+								<h4>We always try to bring the beautiful smile of our customers with our awesome works.</h4>
+								<a class="s-button" href="#">View Portfolio</a>
+								<a class="s-button" href="#">Hire Me</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- .pogoSlider -->
+	</section>
+
+	<!-- 
+	About Section
+	===================================== -->
+	<section id="about" class="padding-50">
+		<div class="container">
+			<div class="row about-hover">
+				<div class="col-md-3 col-sm-4">
+					<div class="author-img text-center">
+						<img src="../assets2/images/ashraf.png" alt="asraf">
+					</div>
+					<div class="author-info text-center">
+						<h3>Asraf Uddin</h3>
+						<div class="social-link">
+							<ul>
+								<li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
+								<li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
+								<li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
+								<li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9 col-sm-8">
+					<div class="author-details">
+						<div class="section-title">
+							<div class="box">
+								<div class="box-before"></div>
+								<div class="box-after"></div>
+								<h2>About me</h2>
+							</div>
+						</div>
+						<p>
+							I am a professional <span>Front End Developer</span>. My Passion is designing the webpage. I have more than five years working experience in this field.
+						</p>
+
+						<p>
+							I am working hard last five years & study continue. I always give a chance to my clients to proof my best.
+						</p>
+
+						<p>
+							"Money is not a big deal between freelancer & clients. A successful project bring a good relationship between us ad make a good environment for work."
+						</p>
+						<p>
+							Best Regard's 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="spacher"></div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 overflowHidden">
+					<div class="contact-info text-center wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".2s">
+						<div class="circle-icon">
+							<i class="fa fa-map-marker"></i>
+						</div>
+						<h3>Address</h3>
+						<p>Chittagong, Bangladesh</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 overflowHidden">
+					<div class="contact-info text-center wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".4s">
+						<div class="circle-icon"> <i class="fa fa-birthday-cake"></i> </div>
+						<h3>Date of Birth</h3>
+						<p>01/01/1988</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 overflowHidden">
+					<div class="contact-info text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+						<div class="circle-icon"> <i class="fa fa-phone"></i> </div>
+						<h3>Phone</h3>
+						<p>+88 01911967727</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 overflowHidden">
+					<div class="contact-info text-center wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".8s">
+						<div class="circle-icon"> <i class="fa fa-envelope-o"></i> </div>
+						<h3>Mail</h3>
+						<p>asraf1496@gmail.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="divider"></div>
+			<div class="section-title">
+				<div class="box">
+					<div class="box-before"></div>
+					<div class="box-after"></div>
+					<h2>My Skills</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-sm-6">
+					<div class="skill-progres">
+						<div class="ProgressBar">
+							<h3>WordPress</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2s" data-wow-delay=".2s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							    <span>80%</span>
+							  </div>
+							</div>
+						</div>
+						<div class="ProgressBar">
+							<h3>PHP</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2.2s" data-wow-delay=".4s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+							    <span>65%</span>
+							  </div>
+							</div>
+						</div>
+						<div class="ProgressBar">
+							<h3>Javascripts</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2.4s" data-wow-delay=".6s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							    <span>80%</span>
+							  </div>
+							</div>
+						</div>
+						<div class="ProgressBar">
+							<h3>JQUERY</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2.6s" data-wow-delay=".8s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+							    <span>85%</span>
+							  </div>
+							</div>
+						</div>
+						<div class="ProgressBar">
+							<h3>HTML5 & CSS3</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2.8s" data-wow-delay="1s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+							    <span>95%</span>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 col-md-offset-2 col-sm-6">
+					<div class="skill-progres">
+						<div class="ProgressBar">
+							<h3>jQuery UI</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2s" data-wow-delay=".2s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+							    <span>85%</span>
+							  </div>
+							</div>
+						</div>
+						<div class="ProgressBar">
+							<h3>Bootstrap & UIKIT</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2.2s" data-wow-delay=".4s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+							    <span>95%</span>
+							  </div>
+							</div>
+						</div>
+						<div class="ProgressBar">
+							<h3>Photoshop</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2.4s" data-wow-delay=".6s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+							    <span>90%</span>
+							  </div>
+							</div>
+						</div>
+						<div class="ProgressBar">
+							<h3>Illustrator</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2.6s" data-wow-delay=".8s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+							    <span>85%</span>
+							  </div>
+							</div>
+						</div>
+						<div class="ProgressBar">
+							<h3>Adobe Indesign</h3>
+							<div class="progress">
+							  <div class="progress-bar slideInLeft wow" data-wow-duration="2.8s" data-wow-delay="1s" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+							    <span>85%</span>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 
+	Services Section
+	===================================== -->
+	<section id="services" class="padding-50">
+		<img class="service-model" src="../assets2/images/service-bg1.png" alt="">
+		<div class="container">
+			<div class="section-title">
+				<div class="box">
+					<div class="box-before"></div>
+					<div class="box-after"></div>
+					<h2>Services I Provide</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-5">
+					<div class="services-content text-right wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
+						<div class="circle-icon services-icon-mobile">
+							<i class="fa fa-code"></i>
+						</div>
+						<h3>branding</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit saepe, fugit libero aliquam necessitatibus aut sint distinctio sit officiis reiciendis!</p>
+						<div class="circle-icon service-icon">
+							<i class="fa fa-code"></i>
+						</div>
+					</div>
+					<div class="services-content text-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+						<div class="circle-icon services-icon-mobile">
+							<i class="fa fa-bug"></i>
+						</div>
+						<h3>UI design</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit saepe, fugit libero aliquam necessitatibus aut sint distinctio sit officiis reiciendis!</p>
+						<div class="service-icon circle-icon">
+							<i class="fa fa-bug"></i>
+						</div>
+					</div>
+					<div class="services-content text-right wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".6s">
+						<div class="circle-icon services-icon-mobile">
+							<i class="fa fa-diamond"></i>
+						</div>
+						<h3>Logo design</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit saepe, fugit libero aliquam necessitatibus aut sint distinctio sit officiis reiciendis!</p>
+						<div class="service-icon circle-icon">
+							<i class="fa fa-diamond"></i>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-4 col-sm-5 col-sm-offset-2">
+					<div class="services-content services-content-right wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".2s">
+						<div class="circle-icon services-icon-mobile">
+							<i class="fa fa-laptop"></i>
+						</div>
+						<h3>web design</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam itaque animi quidem culpa dolores cumque nisi voluptates similique illo deleniti?</p>
+						<div class="service-icon-right circle-icon">
+							<i class="fa fa-laptop"></i>
+						</div>
+					</div>
+					<div class="services-content services-content-right wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+						<div class="circle-icon services-icon-mobile">
+							<i class="fa fa-database"></i>
+						</div>
+						<h3>UX design</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam itaque animi quidem culpa dolores cumque nisi voluptates similique illo deleniti?</p>
+						<div class="service-icon-right circle-icon">
+							<i class="fa fa-database"></i>
+						</div>
+					</div>
+					<div class="services-content services-content-right wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".6s">
+						<div class="circle-icon services-icon-mobile">
+							<i class="fa fa-cogs"></i>
+						</div>
+						<h3>WordPress</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam itaque animi quidem culpa dolores cumque nisi voluptates similique illo deleniti?</p>
+						<div class="service-icon-right circle-icon">
+							<i class="fa fa-cogs"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 
+	Happy Clients Section
+	===================================== -->
+	<section id="happyClient" class="padding-50">
+		<div class="parallax-bg happyClient-prallx-bg"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="HCS-Item text-center">
+						<div class="hp-cions circle-icon"><i class="fa fa-users"></i></div>
+						<span class="counter">141</span>
+						<h3>Happy Clients</h3>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="HCS-Item text-center">
+						<div class="hp-cions circle-icon"><i class="fa fa-briefcase"></i></div>
+						<span class="counter">365</span>
+						<h3>Complate Project</h3>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="HCS-Item text-center">
+						<div class="hp-cions circle-icon"><i class="fa fa-coffee"></i></div>
+						<span class="counter">658</span>
+						<h3>Cup of coffee</h3>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="HCS-Item text-center">
+						<div class="hp-cions circle-icon"><i class="fa fa-clock-o"></i></div>
+						<span class="counter">5</span>
+						<h3>Years of Experience</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 
+	Portfolio Section
+	===================================== -->
+	<section id="portfolio" class="padding-50">
+		<div class="container">
+			<div class="section-title">
+				<div class="box">
+					<div class="box-before"></div>
+					<div class="box-after"></div>
+					<h2>My Recent Works</h2>
+				</div>
+			</div>
+			<div class="portfoioArea">
+				<div class="mixitup-fillter">
+					<ul>
+						<li class="filter active" data-filter="all">All</li>
+						<li class="filter" data-filter=".category-a">WebDesign</li>
+						<li class="filter" data-filter=".category-b">Photoghraphy</li>
+						<li class="filter" data-filter=".category-c">Illustration</li>
+					</ul>
+				</div>
+				<div class="mixItup-Area">
+				    <div class="mix category-a category-d">
+				    	<div class="mix-single-item">
+				    		<img src="../assets2/images/1.jpg" alt="popup">
+				    		<div class="overlay">
+				    			<div class="overlay-table-cell">
+				    				<a class="test-popup-link" href="../assets2/images/potf-2.jpg"> <i class="fa fa-plus"></i> </a>
+				    				<a href="#"> <i class="fa fa-link"></i> </a>
+				    				<h4>webdesign</h4>
+				    				<p>Lorem ipsum dolor sit amet.</p>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <div class="mix category-b">
+				    	<div class="mix-single-item">
+				    		<img src="../assets2/images/portf-3.jpg" alt="popup">
+				    		<div class="overlay">
+				    			<div class="overlay-table-cell">
+				    				<a class="test-popup-link" href="../assets2/images/portf-3.jpg"> <i class="fa fa-plus"></i> </a>
+				    				<a href="#"> <i class="fa fa-link"></i> </a>
+				    				<h4>webdesign</h4>
+				    				<p>Lorem ipsum dolor sit amet.</p>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <div class="mix category-a category-c">
+				    	<div class="mix-single-item">
+				    		<img src="../assets2/images/porytf-4.jpg" alt="popup">
+				    		<div class="overlay">
+				    			<div class="overlay-table-cell">
+				    				<a class="test-popup-link" href="../assets2/images/porytf-4.jpg"> <i class="fa fa-plus"></i> </a>
+				    				<a href="#"> <i class="fa fa-link"></i> </a>
+				    				<h4>webdesign</h4>
+				    				<p>Lorem ipsum dolor sit amet.</p>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <div class="mix category-a category-d">
+				    	<div class="mix-single-item">
+				    		<img src="../assets2/images/portf-5.jpg" alt="popup">
+				    		<div class="overlay">
+				    			<div class="overlay-table-cell">
+				    				<a class="test-popup-link" href="../assets2/images/portf-5.jpg"> <i class="fa fa-plus"></i> </a>
+				    				<a href="#"> <i class="fa fa-link"></i> </a>
+				    				<h4>webdesign</h4>
+				    				<p>Lorem ipsum dolor sit amet.</p>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				     <div class="mix category-a category-b">
+				    	<div class="mix-single-item">
+				    		<img src="../assets2/images/portf6.jpg" alt="popup">
+				    		<div class="overlay">
+				    			<div class="overlay-table-cell">
+				    				<a class="test-popup-link" href="../assets2/images/portf6.jpg> <i class="fa fa-plus"></i> </a>
+				    				<a href="#"> <i class="fa fa-link"></i> </a>
+				    				<h4>webdesign</h4>
+				    				<p>Lorem ipsum dolor sit amet.</p>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <div class="mix category-b category-c">
+				    	<div class="mix-single-item">
+				    		<img src="../assets2/images/portf6.jpg" alt="popup">
+				    		<div class="overlay">
+				    			<div class="overlay-table-cell">
+				    				<a class="test-popup-link" href="../assets2/images/portf6.jpg"> <i class="fa fa-plus"></i> </a>
+				    				<a href="#"> <i class="fa fa-link"></i> </a>
+				    				<h4>webdesign</h4>
+				    				<p>Lorem ipsum dolor sit amet.</p>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 
+	Testimonial Section
+	===================================== -->
+	<section id="testimonials" class="padding-50">
+		<div class="parallax-bg testimodial-parallax"></div>
+		<div class="container">
+			<div id="testimonial-slide" class="owl-carousel">
+				<div class="testimonial-item text-center">
+					<img src="../assets2/images/test-1.jpg" alt="Testimonial-1">
+					<h3>
+						 MTM Sujan
+						<span>CEO & Founder at SoftTech-IT Institute</span>
+					</h3>
+					<p> Mr.Asraf developed outstanding Websites and He is very reliable for clients
+					</p>
+				</div>
+				<div class="testimonial-item text-center">
+					<img src="../assets2/images/tahmid-hasan.jpg" alt="Testimonial-1">
+					<h3>
+						Tahmid Hasan
+						<span>Grapichs designer</span>
+					</h3>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+				</div>
+				<div class="testimonial-item text-center">
+					<img src="../assets2/images/rasel-ahmed.jpeg" alt="Testimonial-1">
+					<h3>
+						Rasel Ahmed
+						<span>CEO & Founder at RR-Foundation</span>
+					</h3>
+					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- 
+	Recent Post Section
+	===================================== -->
+	<section id="recent-post" class="padding-50">
+		<div class="container">
+			<div class="section-title">
+				<div class="box">
+					<div class="box-before"></div>
+					<div class="box-after"></div>
+					<h2>Recent Post</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="blog-post wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".6s">
+						<div class="post-photo">
+							<img src="../assets2/images/2.jpg" alt="blog">
+						</div>
+						<div class="post-date">
+							<p><span>15</span>February, 2017 | By Admin | Comment 256</p>
+						</div>
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eaque sunt, optio facilis! Maxime quaerat accusamus voluptate consequatur laudantium velit cum, est ad fugit unde veritatis nam asperiores recusandae debitis nemo vero repudiandae.
+						</p>
+						<a class="s-button" href="blog.html" target="_blank">Read More</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="blog-post wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".8s">
+						<div class="post-photo">
+							<img src="../assets2/images/2.jpg" alt="blog">
+						</div>
+						<div class="post-date">
+							<p><span>20</span>February, 2017 | By Admin | Comment 206</p>
+						</div>
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eaque sunt, optio facilis! Maxime quaerat accusamus voluptate consequatur laudantium velit cum, est ad fugit unde veritatis nam asperiores recusandae debitis nemo vero repudiandae.
+						</p>
+						<a class="s-button" href="blog.html" target="_blank">Read More</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="blog-post wow fadeInUp" data-wow-duration="1.8s" data-wow-delay="1s">
+						<div class="post-photo">
+							<img src="../assets2/images/2.jpg" alt="blog">
+						</div>
+						<div class="post-date">
+							<p><span>28</span>February, 2017 | By Admin | Comment 135</p>
+						</div>
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis eaque sunt, optio facilis! Maxime quaerat accusamus voluptate consequatur laudantium velit cum, est ad fugit unde veritatis nam asperiores recusandae debitis nemo vero repudiandae.
+						</p>
+						<a class="s-button" href="blog.html" target="_blank">Read More</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- 
+	Conatct Us Section
+	===================================== -->
+	<section id="contact-us" class="padding-50">
+		<div class="container">
+			<div class="section-title">
+				<div class="box">
+					<div class="box-before"></div>
+					<div class="box-after"></div>
+					<h2>Say Hello!</h2>
+				</div>
+			</div>
+			<div class="spacher"></div>
+			<div class="row">
+				<div class="col-md-7 col-sm-7">
+					<div class="contact-form">
+						<form action="process.php" id="contact-form" method="post">
+							<div class="width-50">
+								<div class="contact-filed" id="name-field">
+									<input class="form-control" type="text" id="form-name" name="form-name" placeholder="Name" required="required">
+								</div>
+								<div class="contact-filed Right" id="email-field">
+									<input class="form-control" type="email" id="form-email" name="form-email" placeholder="Email" required="required">
+								</div>
+							</div>
+							<div class="contact-filed" id="subject-field">
+								<input class="form-control" type="text" id="form-subject" name="form-subject" placeholder="Subject" required="required">
+							</div>
+							<div class="contact-filed" id="message-field">
+								<textarea class="form-control" id="form-message" name="form-message" placeholder="Message" required="required"></textarea>
+							</div>
+                            <div class="contact-filed">
+								<button class="s-button" type="submit">submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-offset-1 col-sm-5">
+					<div class="form-info wow fadeInUp" data-wow-duration=".6s" data-wow-delay=".2s">
+						<div class="form-icons circle-icon"><i class="fa fa-map-marker"></i></div>
+						<p>
+							Abdur Sabur Manson, Road no-11, <br> house no-582
+							Chandgaon Abashik <br>Chittagong, Bangladesh
+						</p>
+					</div>
+					<div class="form-info wow fadeInUp" data-wow-duration=".8s" data-wow-delay=".4s">
+						<div class="form-icons circle-icon"><i class="fa fa-envelope-o"></i></div>
+						<p>
+							asraf1496@gmail.com<br>
+							asraf1496@outlook.com
+						</p>
+					</div>
+					<div class="form-info wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+						<div class="form-icons circle-icon"><i class="fa fa-phone"></i></div>
+						<p>
+							+88 01911967727 <br>
+							+88 01558917333
+						</p>
+					</div>
+					<div class="form-info wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".8s">
+						<div class="form-icons circle-icon"><i class="fa fa-skype"></i></div>
+						<p>
+							Skype ID: <br>
+							"asrafasia"
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 
+	Google Map
+	===================================== -->
+	<div id="google-map">
+		<div class="googleMap cd-google-map">
+			<div id="google-container"></div>
+			<div id="cd-zoom-in"></div>
+			<div id="cd-zoom-out"></div>
+		</div>
+	</div>
+	<!-- 
+	Footer Widget Section
+	===================================== -->
+	<section id="footer-widget" class="padding-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="footer-widget">
+						<div class="section-title">
+							<div class="box">
+								<div class="box-before"></div>
+								<div class="box-after"></div>
+								<h2>About Us</h2>
+							</div>
+						</div>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ea consequatur tempora temporibus, sint odit.
+							<br>
+							<br>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ea consequatur tempora temporibus, sint odit.
+
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="footer-widget">
+						<div class="section-title">
+							<div class="box">
+								<div class="box-before"></div>
+								<div class="box-after"></div>
+								<h2>Latest Post</h2>
+							</div>
+						</div>
+						<div class="fwrp">
+							<a href="#"><img src="../assets2/images/2.jpg" alt="recent post"></a>
+							<div class="fwrp-content">
+								<a href="#">Lorem ipsum dolor sit amet.</a>
+								<h5> <i class="fa fa-calendar"></i> 26 February 2017</h5>
+							</div>
+						</div>
+						<div class="fwrp">
+							<a href="#"><img src="../assets2/images/2.jpg" alt="recent post"></a>
+							<div class="fwrp-content">
+								<a href="#">Lorem ipsum dolor sit amet.</a>
+								<h5> <i class="fa fa-calendar"></i> 20 June 2017</h5>
+							</div>
+						</div>
+						<div class="fwrp">
+							<a href="#"><img src="../assets2/images/2.jpg" alt="recent post"></a>
+							<div class="fwrp-content">
+								<a href="#">Lorem ipsum dolor sit amet.</a>
+								<h5> <i class="fa fa-calendar"></i> 12 July 2017</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="footer-widget text-center">
+						<div class="section-title">
+							<div class="box">
+								<div class="box-before"></div>
+								<div class="box-after"></div>
+								<h2>gallery</h2>
+							</div>
+						</div>
+						<div class="fw-gallery">
+							<a class="fw-gallerry-popup" href="../assets2/images/2.jpg"><img src="../assets2/images/2.jpg" alt="photo"></a>
+							<a class="fw-gallerry-popup" href="../assets2/images/2.jpg"><img src="../assets2/images/2.jpg" alt="photo"></a>
+							<a class="fw-gallerry-popup" href="../assets2/images/2.jpg"><img src="../assets2/images/2.jpg" alt="photo"></a>
+							<a class="fw-gallerry-popup" href="../assets2/images/2.jpg"><img src="../assets2/images/2.jpg" alt="photo"></a>
+							<a class="fw-gallerry-popup" href="../assets2/images/2.jpg"><img src="../assets2/images/2.jpg" alt="photo"></a>
+							<a class="fw-gallerry-popup" href="../assets2/images/2.jpg"><img src="../assets2/images/2.jpg" alt="photo"></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="footer-widget text-center">
+						<div class="section-title">
+							<div class="box">
+								<div class="box-before"></div>
+								<div class="box-after"></div>
+								<h2>Hire me on</h2>
+							</div>
+						</div>
+						<div class="fw-marketplace">
+							<a href="#"><img src="../assets2/images/Upwork-logo.png" alt="Upwork"></a>
+							<a href="#"><img src="../assets2/images/fiverr.png" alt="fiverr"></a>
+							<a href="#"><img src="../assets2/images/freelancer.png" alt="freelancer"></a>
+							<a href="#"><img src="../assets2/images/peopleperhour.png" alt="peopleperhour"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 
+	Foter Section
+	===================================== -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="copyright">
+						<p> &copy; Copyright 2017 All Rights Reserved - <span>Asraf</span></p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="footer-social-link">
+						<div class="social-link">
+							<ul>
+								<li><a href="https://facebook.com/asf.kb.3"> <i class="fa fa-facebook"></i> </a></li>
+								<li><a href="https://twitter.com/asraf1496"> <i class="fa fa-twitter"></i> </a></li>
+								<li><a href="https://www.linkedin.com/in/asraf-uddin-987ba27a/"> <i class="fa fa-linkedin"></i> </a></li>
+								<li><a href="https://www.instagram.com/asraf1496/"> <i class="fa fa-instagram"></i> </a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- 
+	ScrollToTop
+	============================= -->
+	<div class="ScrollToTop ">
+		<a class="" href="#"><i class="fa fa-angle-up"></i></a>
+	</div>
+
+	<!-- ============= Scripts ============= -->
+	<script type="text/javascript" src="../assets2/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../assets2/js/bootstrap.min.js"></script>
+	<!-- Pogo-Slider -->
+	<script type="text/javascript" src="../assets2/js/pogo-slider.min.js"></script>
+	<!-- mixitup -->
+	<script type="text/javascript" src="../assets2/js/mixitup.min.js"></script>
+	<!-- owl.carousel -->
+	<script type="text/javascript" src="../assets2/js/owl.carousel.min.js"></script>
+	<!-- sticky -->
+	<script type="text/javascript" src="../assets2/js/jquery.sticky.js"></script>
+	<!-- Easing -->
+	<script type="text/javascript" src="../assets2/js/jquery.easing.min.js"></script>
+	<!-- Counterup -->
+	<script type="text/javascript" src="../assets2/js/waypoints.min.js"></script>
+	<script type="text/javascript" src="../assets2/js/jquery.counterup.min.js"></script>
+	<!-- Magnific-PopUp -->
+	<script type="text/javascript" src="../assets2/js/jquery.magnific-popup.min.js"></script>
+	<!-- WOW JS -->
+	<script type="text/javascript" src="../assets2/js/wow.min.js"></script>
+	<!-- Parallax -->
+	<script type="text/javascript" src="../assets2/js/jquery.scrolly.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV_eZa2NAvh778NBT9kGW-TwSzI3YgK7k"></script>
+	<script type="text/javascript" src="../assets2/js/google-map.js"></script>
+    <!-- Contact Form -->
+	<script type="text/javascript" src="../assets2/js/contact-form.js"></script>
+	
+	<!-- Active JS -->
+	<script type="text/javascript" src="../assets2/js/active.js"></script>
+
+</body>
 </html>
