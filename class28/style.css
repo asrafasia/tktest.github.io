@@ -1,0 +1,228 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.footer-area{
+    background-color:#14ADF3;
+    padding: 50px 80px;
+}
+
+footer.footer-area,.footer-area
+ a {
+    color: #fff;
+}
+.footer-area h3{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.footer-area .social-links{
+    margin-top: 30px;
+}
+.footer-area .social-links a{
+    margin-right: 20px;
+}
+.footer-widget ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+        
+}
+
+.footer-widget ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    
+}
+.contact-info{
+    position: relative;
+    padding-left: 30px;
+}
+.contact-info i.fa{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    
+}
+.subscribtion-form h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+form input[type="email"]{
+   background-color: #F7F7F7;
+    color: #333;
+    border: none;
+    padding: 5px;
+    width: 70%;
+}
+form input[type="submit"]{
+   background-color: #F7F7F7;
+    color: #14ADF3;
+    border: none;
+    padding: 5px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 28%;
+    
+}
+.footer-widget p:last-child{
+    margin-top: 10px;
+    font-size: 90%;
+}
+.copyright-area{
+    padding: 20px 80px;
+}
+.copyright-area,.text-right a{
+    color: #9C9C9C;
+}
+.text-right ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.text-right ul li{
+    display: inline-block;
+}
+.text-right ul li a{
+    text-transform: capitalize;
+    text-decoration:none;
+}
+.text-right li:after{
+    content: "|";
+    padding-left: 10px;
+    padding-right: 7px;
+     
+}
+.text-right li:last-child:after{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
