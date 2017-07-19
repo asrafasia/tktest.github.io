@@ -51,7 +51,17 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
         }); 
 
         
-		
+		 $(".projects-title li").on('click', function(){
+
+        	$(".projects-title li").removeClass("active");
+        	$(this).addClass("active");
+
+
+        	var selector = $(this).attr('data-filter');
+        	$(".projects-list").isotope({
+        		filter : selector
+        	})
+        });
       
 		
 
@@ -59,7 +69,8 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
 
 
     jQuery(window).load(function(){
-
+		
+	 jQuery(".projects-list").isotope();
         
     });
 
