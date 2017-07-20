@@ -1,0 +1,271 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.project-bg-1{background-image: url(assets/images/bg-1.jpg);}
+.project-bg-2{background-image: url(assets/images/bg-2.jpg);}
+.project-bg-3{background-image: url(assets/images/bg-3.jpg);}
+.project-bg-4{background-image: url(assets/images/bg-4.jpg);}
+.project-bg-5{background-image: url(assets/images/bg-5.jpg);}
+.project-bg-6{background-image: url(assets/images/bg-6.jpg);}
+.project-bg-7{background-image: url(assets/images/bg-7.jpg);}
+.project-bg-8{background-image: url(assets/images/bg-8.jpg);}
+.project-bg-9{background-image: url(assets/images/bg-9.jpg);}
+
+.section-padding{
+    padding: 80px 0;
+        
+}
+.projects-title{
+    margin: 0 0 5px;
+    padding: 0;
+    list-style: none;
+}
+.projects-title li{
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.single-project-item a,.single-project-item span,
+.projects-title li.active{
+    color: #00DDD6;
+}
+.single-project-item{
+    height: 300px;
+    background-color: #ddd;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+    
+}
+.row .projects-list .col-md-4:nth-child(2) .single-project-item,
+.row .projects-list .col-md-4:nth-child(4) .single-project-item,
+.row .projects-list .col-md-4:nth-child(6) .single-project-item{
+    height: 615px;
+}
+.single-project-item:hover .project-hover{
+    opacity: 1;
+}
+
+.row.projects-list .col-md-4 {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+.row.projects-list {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+.project-hover{
+      position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s;
+}
+.project-hover:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .6;
+}
+.project-hover a{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    font-size: 20px;
+}
+.project-hover h4{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.project-hover span{
+   display: block;
+    font-size: 80%;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
