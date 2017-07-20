@@ -50,6 +50,14 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
              return false;
         }); 
 
+		
+		
+			 jQuery(".project-hover a").magnificPopup({
+			type: 'image',
+			gallery: {
+				enabled: true,
+            },
+		});
         
 		 $(".projects-title li").on('click', function(){
 
