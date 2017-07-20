@@ -51,24 +51,24 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
         }); 
 
 		
-		
-			 jQuery(".project-hover a").magnificPopup({
+		jQuery(".project-hover a").magnificPopup({
 			type: 'image',
 			gallery: {
 				enabled: true,
             },
 		});
-        
-		 $(".projects-title li").on('click', function(){
-
-        	$(".projects-title li").removeClass("active");
-        	$(this).addClass("active");
-
-
-        	var selector = $(this).attr('data-filter');
-        	$(".projects-list").isotope({
-        		filter : selector
-        	})
+		
+		jQuery(window).load(function(){
+		  jQuery(".projects-list").isotope();
+		}); 
+		
+		jQuery(".projects-title li").on('click', function() {
+            $(".projects-title li").removeClass("active");
+            $(this).addClass("active");
+            var selector = $(this).attr('data-filter');
+            $(".projects-list").isotope({
+               filter: selector 
+            });
         });
       
 		
@@ -76,11 +76,6 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
     });
 
 
-    jQuery(window).load(function(){
-		
-	 jQuery(".projects-list").isotope();
-        
-    });
 
 
 }(jQuery));	
