@@ -30,15 +30,15 @@ body {
 }
 a:hover { text-decoration: none }
 
-.project-bg-1{background-image: url(assets/images/bg-1.jpg);}
-.project-bg-2{background-image: url(assets/images/bg-2.jpg);}
-.project-bg-3{background-image: url(assets/images/bg-3.jpg);}
-.project-bg-4{background-image: url(assets/images/bg-4.jpg);}
-.project-bg-5{background-image: url(assets/images/bg-5.jpg);}
-.project-bg-6{background-image: url(assets/images/bg-6.jpg);}
-.project-bg-7{background-image: url(assets/images/bg-7.jpg);}
-.project-bg-8{background-image: url(assets/images/bg-8.jpg);}
-.project-bg-9{background-image: url(assets/images/bg-9.jpg);}
+.project-bg-1{background-image: url(../images/bg-1.jpg);}
+.project-bg-2{background-image: url(../images/bg-2.jpg);}
+.project-bg-3{background-image: url(../images/bg-3.jpg);}
+.project-bg-4{background-image: url(../images/bg-4.jpg);}
+.project-bg-5{background-image: url(../images/bg-5.jpg);}
+.project-bg-6{background-image: url(../images/bg-6.jpg);}
+.project-bg-7{background-image: url(../images/bg-7.jpg);}
+.project-bg-8{background-image: url(../images/bg-8.jpg);}
+.project-bg-9{background-image: url(../images/bg-9.jpg);}
 
 .section-padding{
     padding: 80px 0;
