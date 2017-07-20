@@ -1,0 +1,224 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #D1CFD3;
+    background-color: #F1EFF3;
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+padding: 80px 0;
+}
+.bigger-text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 0 70px;
+}
+.bigger-text h1{
+    font-weight: 400;
+    margin-bottom: 50px;
+    color:#333135;
+    font-size: 35px;
+    line-height:50px;
+    
+}
+.bigger-text p:last-of-type{
+    margin-bottom: 30px;
+}
+
+.bigger-text .boxed-btn{
+    background-color: #4851EA;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius:50px;
+    
+}
+.shadow-gallery{
+    position: relative;
+    padding-top: 60px;
+}
+.shadow-gallery img{
+    position: relative;
+    z-index: 1;
+    width: 50%;
+    box-shadow: 0 0 50px #B9B7BB;
+
+}
+.shadow-gallery img:nth-child(1){
+  top: -50px;
+}
+.shadow-gallery img:nth-child(2){
+    position: absolute;
+   right: 0;
+    bottom: 0;
+    z-index: 2;
+        
+}
+.shadow-gallery img:nth-child(3){
+    position: absolute;
+      right: auto;
+    left: -50px;
+    bottom: -80px;
+    z-index: 3;
+    width: 70%;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
