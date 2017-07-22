@@ -73,19 +73,15 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
       
 		
 
-			var s = skrollr.init({
+		var s = skrollr.init({
 			 render: function(data){
 				}
-		 })
+		 });
 
-    }); 
-
-	jQuery(document).ready(function($){
 
         $(".video-btn").magnificPopup({
 			type: 'video',
 		});
-
 
 
 		
