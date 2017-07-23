@@ -103,4 +103,4 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
 
 
 
-}(jQuery));	
+}(jQuery);	
