@@ -1,0 +1,255 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #fff;
+}
+a:hover { text-decoration: none }
+
+
+.single-slide-item{background-image: url(../images/bg-34.png);
+    margin-bottom: 200px;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    background-color:#ddd;
+    position: relative;
+}
+.slide-text-area{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.slide-text:before{
+   position: absolute;
+    left: -1000%;
+    top: 0;
+    height: 100%;
+    width: 1000%;
+    background: #1784C7;
+    content: "";
+    
+    
+}
+.slide-text{
+    background-color: #1784C7;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 150px;
+    font-size:20px;
+    line-height: 1.8;
+    position: relative;
+    
+}
+.slide-text:after{
+    content: "";
+    position: absolute;
+    right: -12.5px;
+    top: 50px;
+    background: #1784C7;
+    height: 25px;
+    width: 25px;
+    transform: rotate(45deg);
+    
+}
+.slide-text h2{
+    font-family: Roboto;
+    font-size: 50px;
+    
+   
+}
+.slide-text p{
+       opacity: .7;
+}
+.boxed-btn{
+    background-color: #3E4043;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 35px;
+    
+}
+
+.boxed-btn:hover {
+    color: #fff;
+    background-color: #fff;
+    color: #333
+}
+
+
+
+
+
+            /*Home task*/
+
+.single-slide-item-2{
+    background-image: url(../images/bg-34.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    height: 600px;
+    position: relative;
+    margin-bottom: 100px
+}
+.slide-text-2{
+    color: #fff;
+    position: relative;
+    padding: 80px 200px 80px 0px;
+    z-index: 1;
+}
+.slide-text-2:before {
+    position: absolute;
+    content: "";
+    left: -1000%;
+    top:0;
+    width: 1000%;
+    height: 100%;
+    background-color: #1784C7;
+    opacity: .2
+}
+.slide-text-2:after {
+    position: absolute;
+    content: "";
+    left: 0%;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: #1784C7;
+    opacity: .2;
+    z-index: -1
+}
+.slide-text-inner{
+    position: absolute;
+    right: -25px;
+    top:80px;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid #1784C7;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    opacity: .2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
