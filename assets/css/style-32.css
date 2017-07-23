@@ -35,9 +35,9 @@ body {
 }
 a:hover { text-decoration: none }
 
-.promo-bg-1{background-image: url(../assets/images/promo-1.jpg);}
-.promo-bg-2{background-image: url(../assets/images/promo-2.jpg);}
-.promo-bg-3{background-image: url(../assets/images/promo-3.jpg);}
+.promo-bg-1{background-image: url(../images/promo-1.jpg);}
+.promo-bg-2{background-image: url(../images/promo-2.jpg);}
+.promo-bg-3{background-image: url(../images/promo-3.jpg);}
 
 .section-padding{
     padding: 80px 0;
