@@ -83,7 +83,7 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
 			type: 'video',
 		});
 
-		$(window).scroll(function() {
+		jQuery(window).scroll(function() {
 					if ($(this).scrollTop() > 100) {
 						$('.scrollToTop').fadeIn();
 					} else {
@@ -92,7 +92,7 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
 				});
 
 
-				$('.scrollToTop').click(function() {
+				jQuery('.scrollToTop').click(function() {
 					$('html, body').animate({ scrollTop: 0 }, 800);
 					return false;
 				});
@@ -103,4 +103,4 @@ $(".embed-responsive iframe").addClass("embed-responsive-item");
 
 
 
-}(jQuery);	
+}(jQuery));	
