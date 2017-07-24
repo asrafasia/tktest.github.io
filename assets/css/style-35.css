@@ -1,0 +1,255 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-absolute-bg{background-image: url(../images/bg-35-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ddd;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 2;
+}
+
+.section-absolute-bg:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .5
+    
+}
+.absolute-bg-1:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:30%;
+    width: 0;
+    height: 0; 
+    border-top: 12.5px solid transparent;
+    border-left: 25px solid #222931;;;
+    border-bottom: 12.5px solid transparent;
+    opacity: .5;
+    
+}
+
+.absolute-bg-left .absolute-bg-2{
+    right: auto;
+    left: 0;
+}
+.absolute-bg-2{background-image: url(../images/bg-35-2.jpg);}
+
+.section-paddng{
+    color: #C1C1C1;
+    background-color:#222931;
+    line-height: 1.7;
+    font-size: 13px;
+    position: relative;
+    z-index: 1;
+    padding: 80px 0;
+    padding-right: 70px;
+}
+.absolute-bg-left .boxed-content{
+    margin-left: 80px;
+    padding-right:0;
+}
+.boxed-content h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+.bordered-btn{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight:700;
+    border:1px solid #CED0D2;
+    padding:5px 20px;
+    margin-top: 20px;
+}
+.boxed-content{
+    position: relative;
+    padding-left: 30px;
+}
+.boxed-content:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 80px;
+    width: 1px;
+    background: #767A7F;
+   
+}
+
+.absolute-bg-2:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top:30%;
+    width: 0;
+    height: 0; 
+    border-top: 12.5px solid transparent;
+    border-right: 25px solid #222931;
+    border-bottom: 12.5px solid transparent;
+    opacity: .5;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
